@@ -26,7 +26,7 @@ export const Hero = () => {
           <h1 className={cn(styles.heroHeadText, "text-white")}>
             Hi, I'm <span className="text-fun-blue">Javair</span>
           </h1>
-          <span className="text-muted">Director Sales - CubeXS Weatherly</span>
+          <span className="text-muted">Director Corporate Sales - CubeXS Weatherly</span>
           <p className={cn(styles.heroSubText, "mt-2 text-white-100 font-bold")}>
             I am a leader in Marketing and sales with <br className="sm:block hidden" />
             25+ Years of Experience.
