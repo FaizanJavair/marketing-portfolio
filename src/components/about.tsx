@@ -56,7 +56,8 @@ export const About = () => {
         >
           Sales leader with <b>25+ years of experience</b>  in the telecom/ISP sector, specializing in Internet, Wireless, FTTX, Cloud, and Colocation. 
           Adept at planning and executing projects, managing budgets, and driving revenue growth. 
-          Expertise in networking equipment <b>(Cisco, Juniper)</b>  and IT market trends. Experienced in designing Corporate WAN, MAN, and Internet Networks, and implementing strategic projects for top-line and bottom-line impact.
+          Expertise in networking equipment <b>(Cisco, Juniper)</b>  and IT market trends. 
+          Experienced in designing Corporate WAN, MAN, and Internet Networks, and implementing strategic projects for top-line and bottom-line impact.
         </motion.p>
 
         {/* Service Card */}
