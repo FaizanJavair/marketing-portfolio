@@ -2,7 +2,7 @@
 export const textVariant = (delay?: number) => {
   return {
     hidden: {
-      y: -20,
+      y: 0,
       opacity: 1,
     },
     show: {
