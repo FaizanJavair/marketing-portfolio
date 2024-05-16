@@ -37,7 +37,13 @@ import {
   twitter,
   github,
 } from "../assets";
-
+import fascom from "../assets/company/fascom.png"
+import comstar from "../assets/company/comstar.png"
+import gerry from "../assets/company/gerry.jpeg"
+import cube from "../assets/company/cube.jpeg"
+import supernet from "../assets/company/super.png"
+import tw from "../assets/company/tw1.jpeg"
+import tes from "../assets/company/tes.jpeg"
 // Navbar Links
 export const NAV_LINKS = [
   {
@@ -55,11 +61,11 @@ export const NAV_LINKS = [
     title: "Contact",
     link: null,
   },
-  {
-    id: "source-code",
-    title: "Source Code",
-    link: "http://www.github.com/sanidhyy/3d-portfolio/",
-  },
+  // {
+  //   id: "source-code",
+  //   title: "Source Code",
+  //   link: "http://www.github.com/sanidhyy/3d-portfolio/",
+  // },
 ] as const;
 
 // Services
@@ -75,6 +81,10 @@ export const SERVICES = [
   {
     title: "Backend Developer",
     icon: backend,
+  },
+  {
+    title: "Content Creator",
+    icon: creator,
   },
   {
     title: "Content Creator",
@@ -142,9 +152,9 @@ export const TECHNOLOGIES = [
 export const EXPERIENCES = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
+    company_name: "Fascom Limited",
+    icon: fascom,
+    iconBg: "#ffffff",
     date: "March 2020 - April 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -155,9 +165,9 @@ export const EXPERIENCES = [
   },
   {
     title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    company_name: "Comstar Information Systems Associates",
+    icon: comstar,
+    iconBg: "#1d1928",
     date: "Jan 2021 - Feb 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -168,9 +178,9 @@ export const EXPERIENCES = [
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
+    company_name: "Gerry's Information Technology",
+    icon: gerry,
+    iconBg: "#ffffff",
     date: "Jan 2022 - Jan 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -181,9 +191,75 @@ export const EXPERIENCES = [
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
+    company_name: "CubeXS Weatherly",
+    icon: cube,
+    iconBg: "#ffffff",
+    date: "Jan 2023 - Present",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Full stack Developer",
+    company_name: "Supernet Ltd.",
+    icon: supernet,
+    iconBg: "#ffffff",
+    date: "Jan 2023 - Present",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Full stack Developer",
+    company_name: "Transworld Associates",
+    icon: tw,
+    iconBg: "#ffffff",
+    date: "Jan 2023 - Present",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Full stack Developer",
+    company_name: "Transworld Enterprise Services",
+    icon: tes,
+    iconBg: "#ffffff",
+    date: "Jan 2023 - Present",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  ,
+  {
+    title: "Full stack Developer",
+    company_name: "Transworld Enterprise Services",
+    icon: tes,
+    iconBg: "#ffffff",
+    date: "Jan 2023 - Present",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Full stack Developer",
+    company_name: "CubeXS Weatherly",
+    icon: cube,
+    iconBg: "#ffffff",
     date: "Jan 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",

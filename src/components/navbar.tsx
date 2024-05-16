@@ -1,7 +1,8 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 
 import { logo, menu, close } from "../assets";
+import jvlogo from "../assets/javair/10.png"
 import { NAV_LINKS } from "../constants";
 import { styles } from "../styles";
 import { cn } from "../utils/lib";
@@ -16,9 +17,17 @@ export const Navbar = ({ hide }: NavbarProps) => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [isAtBottom, setIsAtBottom] = useState(false);
+  
+
+  let [background, setBackground] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
+      if (window.scrollY >= 150) {
+        setBackground(true)
+      } else {
+        setBackground(false)
+      }
       if (window.scrollY > 10) {
         setIsAtBottom(true);
       } else {
@@ -35,24 +44,28 @@ export const Navbar = ({ hide }: NavbarProps) => {
     <nav
       className={cn(
         styles.paddingX,
-        "w-full flex items-center py-5 fixed top-0 z-20 bg-primary",
-        isAtBottom || hide ? "mt-0" : "mt-20"
+        "w-full flex items-center py-5 fixed top-0 z-20 transition-colors duration-500",
+        !background ? "bg-transparent" : "bg-primary",
       )}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         {/* Logo */}
         <Link
           to="/"
-          className="flex items-center gap-2"
+          className="flex items-center"
           onClick={() => {
             setActive("");
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="Logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Shubham&nbsp;<span className="sm:block hidden">| Developer</span>
-          </p>
+          <img src={jvlogo} alt="Logo" className="w-12 h-12 object-contain mr-2 transform hover:rotate-360 hover:scale-75 transition-transform duration-500" />
+          {"Javair Waheed".split("").map((letter, index) => {
+              return (
+                <span key={index} className=" hover:text-fun-blue hover:-mt-2 transition-all duration-500 hover:duration-100 click:goodbyeLetterAnim font-bold">
+                  {letter}
+                </span>
+              );
+            })}
         </Link>
 
         {/* Nav Links (Desktop) */}
