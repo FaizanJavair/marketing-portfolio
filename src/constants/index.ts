@@ -37,21 +37,21 @@ import {
   twitter,
   github,
 } from "../assets";
-import fascom from "../assets/company/fascom.png"
-import comstar from "../assets/company/comstar.png"
-import gerry from "../assets/company/gerry.jpeg"
-import cube from "../assets/company/cube.jpeg"
-import supernet from "../assets/company/super.png"
-import tw from "../assets/company/tw1.jpeg"
-import tes from "../assets/company/tes.jpeg"
-import business from "../assets/skills/1.png"
-import crm from "../assets/skills/2.png"
-import max from "../assets/skills/3.png"
-import graph from "../assets/skills/4.png"
-import account from "../assets/skills/5.png"
-import cloud from "../assets/skills/6.png"
-import retention from "../assets/skills/7.png"
-import team from "../assets/skills/8.png"
+import fascom from "../assets/company/fascom.png";
+import comstar from "../assets/company/comstar.png";
+import gerry from "../assets/company/gerry.jpeg";
+import cube from "../assets/company/cube.jpeg";
+import supernet from "../assets/company/super.png";
+import tw from "../assets/company/tw1.jpeg";
+import tes from "../assets/company/tes.jpeg";
+import business from "../assets/skills/1.png";
+import crm from "../assets/skills/2.png";
+import max from "../assets/skills/3.png";
+import graph from "../assets/skills/4.png";
+import account from "../assets/skills/5.png";
+import cloud from "../assets/skills/6.png";
+import retention from "../assets/skills/7.png";
+import team from "../assets/skills/8.png";
 // Navbar Links
 export const NAV_LINKS = [
   {
@@ -231,7 +231,7 @@ export const EXPERIENCES = [
       "Formulated  Sales Strategy and Ensured achievement of assigned corporate sales targets.",
       "Employee recruitment & training and budget planning to ensure a highly knowledgeable sales team with top-level performance in-result exceeded cumulative annual sales revenue by 10%.",
       "Increased Customer retention which resulted in the repetition of business every year.",
-      "Designed and implemented sales and marketing plans for the corporate sector."
+      "Designed and implemented sales and marketing plans for the corporate sector.",
     ],
   },
   {
