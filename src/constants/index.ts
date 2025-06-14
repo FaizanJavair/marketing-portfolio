@@ -455,24 +455,24 @@ export const PROJECTS = [
 ] as const;
 
 export const SOCIALS = [
-  {
-    name: "YouTube",
-    icon: youtube,
-    link: "https://www.youtube.com/@OPGAMER.",
-  },
+  // {
+  //   name: "YouTube",
+  //   icon: youtube,
+  //   link: "https://www.youtube.com/@OPGAMER.",
+  // },
   {
     name: "Linkedin",
     icon: linkedin,
-    link: "https://www.linkedin.com/in/sanidhyy",
+    link: "https://www.linkedin.com/in/javairwaheed/",
   },
-  {
-    name: "Twitter",
-    icon: twitter,
-    link: "https://twitter.com/TechnicalShubam",
-  },
-  {
-    name: "GitHub",
-    icon: github,
-    link: "https://github.com/sanidhyy",
-  },
+  // {
+  //   name: "Twitter",
+  //   icon: twitter,
+  //   link: "https://twitter.com/TechnicalShubam",
+  // },
+  // {
+  //   name: "GitHub",
+  //   icon: github,
+  //   link: "https://github.com/sanidhyy",
+  // },
 ] as const;
